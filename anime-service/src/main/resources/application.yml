@@ -1,3 +1,18 @@
 spring:
   application:
     name: anime-service
+
+  web:
+    error:
+      include-message: always
+      include-stacktrace: never
+
+
+
+server:
+  port: 8080
+  servlet:
+    context-path: /
+
+
+
